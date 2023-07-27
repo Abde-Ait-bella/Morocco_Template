@@ -1,0 +1,12 @@
+.network{
+    margin-top: 951px;
+    width: 100%;
+    .network__partners{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .Microsoft{
+            height: 222px;
+        }
+    }
+}

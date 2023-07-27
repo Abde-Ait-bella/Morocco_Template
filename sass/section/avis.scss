@@ -1,0 +1,76 @@
+.avis{
+    padding-top: 154px;
+    padding-bottom: 227px;
+    display: flex;
+    justify-content: center;
+    .avis__contents{
+        width: 1660px;
+        height: 544px;
+        display: flex;
+        justify-content: center;
+        background-image: url("../../assets/imageAvis.jpg");
+        background-size: 1660px 544px;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+
+        .content{
+            display: flex;
+            flex-direction: column;
+            margin: 150px 25.5px 25.5px 25.5px;
+            width: 350px;
+            height: 289px;
+            position: relative;
+            .img{
+                background-image: url("../../assets/avis1.svg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                color: black;
+                height: 206.9px;
+                width: 350px;
+                padding-top: 43px ;
+                padding-left: 35px;
+                padding-right: 13px;
+
+                p{
+                    font-size: 12px;
+                    color: #474747;
+                    font-weight: 300;
+                    line-height: 20px;
+                    padding-top: 12px;
+                    font-family: roboto;
+                }
+            }
+            .avis__footer{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                margin-top: 231px;
+                padding-left: 91px;
+                width: 100%;
+                label{
+                    font-size: 18px;
+                    font-weight: bold;
+                    line-height: 28px;
+                    font-family: Manrope;
+                }
+                span{
+                    font-family: Manrope;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    opacity: 70%;
+                }
+                .photo-commentator{
+                    width: 56px;
+                    height: 56px;
+                    border-radius: 50%;
+                    position: absolute;
+                    left: 19px;
+                }
+            }
+        
+        }
+
+    }
+}
