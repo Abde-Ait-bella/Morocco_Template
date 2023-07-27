@@ -351,6 +351,7 @@ h3 {
   z-index: 0;
   position: absolute;
   width: 100%;
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
   color: black;
