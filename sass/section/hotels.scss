@@ -1,0 +1,97 @@
+#section-hotels{
+
+    .content{
+        background-color: #F4F4F4;
+        margin-top: 232px;;
+
+        .container{
+            position: relative;
+            top: -137px;
+
+        }
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .title-container{
+        display: flex;
+        align-items: center;
+        margin-top: 11px;
+
+        .title{
+            font-size: 30px;
+            font-weight: bold;
+            color: #2D2D2D;
+        }
+
+        .rating{
+                display: flex;
+                margin-left: 40px;
+            span{
+                background-image: url("../../assets/Star.svg");
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+    .price{
+        font-size: 20px;
+        font-weight: 500;
+        color: #959595;
+        margin-top: 14px;
+    }
+    .down-holels{
+        margin-top: 90px;
+        display: flex;
+        align-items: end;
+
+
+        .inputs{
+            margin-right: 82px;
+    
+
+            label{
+                font-size: 12px;
+                letter-spacing: 3px;
+                font-weight: 600;
+                color: #9B9B9B;
+
+            }
+            select{
+                width: 100%;
+                border-radius: 5px;
+                border: solid 1px #DBDBDB;
+                background-color: #F4F4F4;
+                font-family: Montserrat;
+                font-size: 18px;
+                font-weight: 500;
+                letter-spacing: 1px;
+                color: #4E4E4E;
+                padding: 27px 0px 26px 22px;
+                margin-top: 10px;
+                
+            }
+            
+        }
+        .inputs:last-child{
+            margin-right: 100px;
+        }
+        .btn-search{
+            margin-right: 0px;
+
+            button{
+                font-size: 18px;
+                font-weight: 600;
+                letter-spacing: 5px;
+                background-color: #3D3D3D;
+                color: #fff;
+                border-radius: 5px;
+                border: none;
+                padding: 26px 79px;
+                font-family: Montserrat;
+            }
+        }
+    }
+}

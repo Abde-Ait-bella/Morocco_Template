@@ -10,29 +10,34 @@ body{
         display: none;
     }
 }
-h1 {
+.section-title{
     display: flex;
-    justify-content: center;
-    font-size: 46px;
-    font-weight: bold;
-    color: #2D2D2D;
+    flex-direction: column;
+    align-items: center;
 
+    .subtitle{
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 10px;
+        color: #474747;
+        margin-bottom: 27px;
+    }
+
+    .tilte{
+        font-size: 46px;
+        font-weight: bold;
+        color: #2D2D2D;
+    }
 }
-h3 {
-    display: flex;
-    justify-content: center;
-    font-size: 16px;
-    letter-spacing: 10px;
-    color: #474747;
-    padding: 27px;
-    text-transform: uppercase;
-    font-weight: 600;
+.container{
+    max-width: 1591px;
 }
 @import "./section/nav";
 @import "./section/slider";
 @import "./section/activites";
 @import "./section/about-us";
-@import "./section/beauties";
+// @import "./section/beauties";
 @import "./section/network";
 @import "./section/avis";
-@import "./section/footer"
+@import "./section/footer";
+@import "./section/hotels.scss"

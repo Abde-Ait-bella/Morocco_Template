@@ -4,19 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/css/plugin.css">
     <link rel="stylesheet" href="./dist/css/style.css">
-
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;700&family=Roboto:wght@900&display=swap" rel="stylesheet">
-
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;700&family=Roboto:wght@300;900&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;700&family=Montserrat:wght@600;700&family=Roboto:wght@300;900&display=swap" rel="stylesheet">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -91,9 +80,9 @@
         </div>
     </section>
     <section class="activites">
-        <div class="activites__titre">
-            <h3 for="">HUNDREDS OF</h3>
-            <h1>Activities for Everyoune</h1>
+        <div class="section-title">
+            <h3 class="subtitle">HUNDREDS OF</h3>
+            <h2 class="tilte">Activities for Everyoune</h2>
         </div>
         <div class="wrapper">
             <div id="right" class="flech back">
@@ -144,9 +133,9 @@
         </div>
     </section>
     <section class="about-us">
-        <div class="about-us__titre">
-            <h3 for="">about us</h3>
-            <h1>Our Philosophy</h1>
+        <div class="section-title">
+            <h3 class="subtitle">about us</h3>
+            <h2 class="tilte">Our Philosophy</h2>
         </div>
         <div class="about-us__content">
             <div class="about-us__content_img">
@@ -174,7 +163,7 @@
             </div>
         </div>
     </section>
-    <section class="beauties">
+    <!-- <section class="beauties">
         <div class="beauties__titre">
             <h3>BEAUTIES</h3>
             <h1>Hotels and Appartements</h1>
@@ -193,8 +182,7 @@
                     <img src="./assets/Hotels and Appartements2.jpg" alt="Hotels and Appartements">
                     <div class="rating">
                         <label for="">Norway</label>
-                        <span></span><span></span><span></span><span></span><img src="./assets/Rating Star - gree.svg"
-                            alt="">
+                        <span></span><span></span><span></span><span></span><img src="./assets/RatingStar-Yellow-gree.svg" alt="">
                     </div>
                     <p>$350</p>
                 </div>
@@ -202,8 +190,7 @@
                     <img src="./assets/Hotels and Appartements3.jpg" alt="Hotels and Appartements">
                     <div class="rating">
                         <label for="">Bergen</label>
-                        <span></span><span></span><span></span><span></span><img
-                            src="./assets/Rating Star - Yellow-gree.svg" alt="">
+                        <span></span><span></span><span></span><span></span><img src="./assets/RatingStar-gree.svg" alt="">
                     </div>
                     <p>$670</p>
                 </div>
@@ -212,10 +199,10 @@
                 <div>
                     <label for="">Date</label><br>
                     <select name="" id="">
+                        <img src="./assets/appearance.svg" alt="">
                         <option value="">Tue, 3 Nov</option>
                         <option value="">France</option>
                     </select>
-                    <img src="./assets/appearance.svg" alt="">
                 </div>
                 <div>
                     <label for="">Location</label><br>
@@ -238,11 +225,76 @@
                 </div>
             </div>
         </div>
+    </section> -->
+    <section id="section-hotels">
+        <div class="section-title">
+            <h3 class="subtitle">BEAUTIES</h3>
+            <h2 class="tilte">Hotels and Appartements</h2>
+        </div>
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6">
+                        <img src="./assets/Hotels and Appartements1.jpg" alt="">
+                        <div class="title-container">
+                            <h3 class="title">Reine</h3>
+                            <div class="rating">
+                                <span></span><span></span><span></span><span></span><span></span>
+                            </div>
+                        </div>
+                        <p class="price">$720</p>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <img src="./assets/Hotels and Appartements2.jpg" alt="">
+                        <div class="title-container">
+                            <h3 class="title">Reine</h3>
+                            <div class="rating">
+                                <span></span><span></span><span></span><span></span><span></span>
+                            </div>
+                        </div>
+                        <p class="price">$720</p>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <img src="./assets/Hotels and Appartements3.jpg" alt="">
+                        <div class="title-container">
+                            <h3 class="title">Reine</h3>
+                            <div class="rating">
+                                <span></span><span></span><span></span><span></span><span></span>
+                            </div>
+                        </div>
+                        <p class="price">$720</p>
+                    </div>
+                </div>
+                <div class="row down-holels">
+                    <div class="col-lg col-sm-12 inputs">
+                        <label for="">Date</label>
+                        <select name="" id="">
+                            <option value="">Loften</option>
+                        </select>
+                    </div>
+                    <div class="col-lg col-sm-12 inputs">
+                        <label for="">Location</label>
+                        <select name="" id="">
+                            <option value="">Loften</option>
+                        </select>
+                    </div>
+                    <div class="col-lg col-sm-12 inputs">
+                        <label for="">Plage</label>
+                        <select name="" id="">
+                            <option value="">Loften</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-auto d-flex justify-content-sm-center  btn-search">
+                        <button>SEARCH</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="network">
-            <div class="network__title">
-                <h3>netwoek</h3>
-                <h1>Our Partners</h1>
+            <div class="section-title">
+                <h3 class="subtitle">netwoek</h3>
+                <h2 class="tilte">Our Partners</h2>
             </div>
             <div class="network__partners">
                 <div class="Microsoft">

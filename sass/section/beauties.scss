@@ -4,7 +4,8 @@
 
     .beauties__content {
         position: relative;
-        .beauties__content__upper-part {
+        max-width: 1140px;
+        &__upper-part {
             z-index: 1;
             padding-top: 95px;
             position: absolute;
@@ -16,11 +17,13 @@
             .upper-part__img {
                 display: flex;
                 flex-direction: column;
+                flex: 1;
+                
 
                 img {
-                    width: 507px;
-                    height: 323px;
-                    margin: 0px 18px 11px 18px;
+                    width: 100%;
+                    height: auto;
+                    // padding: 0px 18px 11px 18px;
                 }
 
                 .rating {
@@ -61,16 +64,19 @@
             width: 100%;
             max-width: 100%;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             color: black;
             height: 569px;
             background-color: #F4F4F4;
             margin-top: 271px;
-            padding: 323px 228px 0px 228px;
+            padding-top: 323px;
+            //  228px 0px 228px;
 
             div{
-                height: 101px;
                 position: relative;
+                flex: 1;
+                padding-left: 55.5px;
+                padding-right: 55.5px;
                 label{
                     font-size: 12px;
                     font-weight: 600;
@@ -83,7 +89,7 @@
                     font-weight: 500;
                     color: #4E4E4E;
                     letter-spacing: 1px;
-                    width: 321px;
+                    width: 100%;
                     height: 75px;
                     display: flex;
                     align-items: center;
@@ -100,7 +106,7 @@
                 }
                 button{
                     border: none;
-                    width: 261px;
+                    // width: 261px;
                     height: 75px;
                     background-color: #3D3D3D;
                     font-size: 18px;
@@ -112,6 +118,7 @@
                     margin-top: 31px;
                     letter-spacing: 10px;
                     font-family: Montserrat;
+                    width: 100%;
 
                 }
             }

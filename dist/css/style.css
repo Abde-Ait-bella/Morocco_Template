@@ -12,23 +12,26 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-h1 {
+.section-title {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.section-title .subtitle {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  color: #474747;
+  margin-bottom: 27px;
+}
+.section-title .tilte {
   font-size: 46px;
   font-weight: bold;
   color: #2D2D2D;
 }
 
-h3 {
-  display: flex;
-  justify-content: center;
-  font-size: 16px;
-  letter-spacing: 10px;
-  color: #474747;
-  padding: 27px;
-  text-transform: uppercase;
-  font-weight: 600;
+.container {
+  max-width: 1591px;
 }
 
 .nav {
@@ -161,7 +164,7 @@ h3 {
 }
 
 .activites {
-  padding: 135px 0 197px 0;
+  padding: 135px 0 159px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -199,7 +202,6 @@ h3 {
 .activites .wrapper .carousel {
   max-width: 1524.5px;
   padding-top: 112px;
-  padding-bottom: 112px;
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
@@ -255,7 +257,7 @@ h3 {
 }
 
 .about-us {
-  padding: 64px 221px 208px 221px;
+  padding: 0px 221px 208px 221px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -291,124 +293,11 @@ h3 {
   font-size: 16px;
   font-weight: 500;
   color: #6D6D6D;
-}
-
-.beauties {
-  position: relative;
-  max-width: 100%;
-}
-.beauties .beauties__content {
-  position: relative;
-}
-.beauties .beauties__content .beauties__content__upper-part {
-  z-index: 1;
-  padding-top: 95px;
-  position: absolute;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  color: black;
-}
-.beauties .beauties__content .beauties__content__upper-part .upper-part__img {
-  display: flex;
-  flex-direction: column;
-}
-.beauties .beauties__content .beauties__content__upper-part .upper-part__img img {
-  width: 507px;
-  height: 323px;
-  margin: 0px 18px 11px 18px;
-}
-.beauties .beauties__content .beauties__content__upper-part .upper-part__img .rating {
-  display: flex;
-  align-items: center;
-}
-.beauties .beauties__content .beauties__content__upper-part .upper-part__img .rating label {
-  font-size: 30px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-right: 40px;
-  margin-left: 18px;
-}
-.beauties .beauties__content .beauties__content__upper-part .upper-part__img .rating span {
-  width: 20px;
-  height: 20px;
-  background-image: url("../../assets/Rating Star.svg");
-  background-size: cover;
-}
-.beauties .beauties__content .beauties__content__upper-part .upper-part__img .rating img {
-  width: 20px;
-  height: 20px;
-  margin: 0;
-}
-.beauties .beauties__content .beauties__content__upper-part .upper-part__img p {
-  color: #959595;
-  margin-left: 19px;
-  padding-top: 14px;
-}
-.beauties .beauties__content .beauties__lower-part {
-  z-index: 0;
-  position: absolute;
-  width: 100%;
-  max-width: 100%;
-  display: flex;
-  justify-content: space-between;
-  color: black;
-  height: 569px;
-  background-color: #F4F4F4;
-  margin-top: 271px;
-  padding: 323px 228px 0px 228px;
-}
-.beauties .beauties__content .beauties__lower-part div {
-  height: 101px;
-  position: relative;
-}
-.beauties .beauties__content .beauties__lower-part div label {
-  font-size: 12px;
-  font-weight: 600;
-  color: #9B9B9B;
-}
-.beauties .beauties__content .beauties__lower-part div select {
-  border: solid 1px #DBDBDB;
-  background-color: rgba(255, 255, 255, 0);
-  font-size: 18px;
-  font-weight: 500;
-  color: #4E4E4E;
-  letter-spacing: 1px;
-  width: 321px;
-  height: 75px;
-  display: flex;
-  align-items: center;
-  padding-left: 22px;
-  border-radius: 5px;
-  margin-top: 11px;
-  appearance: none;
-  font-family: Montserrat;
-}
-.beauties .beauties__content .beauties__lower-part div img {
-  position: absolute;
-  left: 273px;
-  top: 67px;
-}
-.beauties .beauties__content .beauties__lower-part div button {
-  border: none;
-  width: 261px;
-  height: 75px;
-  background-color: #3D3D3D;
-  font-size: 18px;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 5px;
-  border-radius: 5px;
-  margin-top: 31px;
-  letter-spacing: 10px;
-  font-family: Montserrat;
+  line-height: 30px;
 }
 
 .network {
-  margin-top: 951px;
+  margin-top: 186px;
   width: 100%;
 }
 .network .network__partners {
@@ -548,4 +437,85 @@ footer .footer__sub span {
 }
 footer .footer__sub img {
   width: 144px;
+}
+
+#section-hotels .content {
+  background-color: #F4F4F4;
+  margin-top: 232px;
+}
+#section-hotels .content .container {
+  position: relative;
+  top: -137px;
+}
+#section-hotels img {
+  width: 100%;
+}
+#section-hotels .title-container {
+  display: flex;
+  align-items: center;
+  margin-top: 11px;
+}
+#section-hotels .title-container .title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #2D2D2D;
+}
+#section-hotels .title-container .rating {
+  display: flex;
+  margin-left: 40px;
+}
+#section-hotels .title-container .rating span {
+  background-image: url("../../assets/Star.svg");
+  width: 20px;
+  height: 20px;
+}
+#section-hotels .price {
+  font-size: 20px;
+  font-weight: 500;
+  color: #959595;
+  margin-top: 14px;
+}
+#section-hotels .down-holels {
+  margin-top: 90px;
+  display: flex;
+  align-items: end;
+}
+#section-hotels .down-holels .inputs {
+  margin-right: 82px;
+}
+#section-hotels .down-holels .inputs label {
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #9B9B9B;
+}
+#section-hotels .down-holels .inputs select {
+  width: 100%;
+  border-radius: 5px;
+  border: solid 1px #DBDBDB;
+  background-color: #F4F4F4;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #4E4E4E;
+  padding: 27px 0px 26px 22px;
+  margin-top: 10px;
+}
+#section-hotels .down-holels .inputs:last-child {
+  margin-right: 100px;
+}
+#section-hotels .down-holels .btn-search {
+  margin-right: 0px;
+}
+#section-hotels .down-holels .btn-search button {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  background-color: #3D3D3D;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  padding: 26px 79px;
+  font-family: Montserrat;
 }
