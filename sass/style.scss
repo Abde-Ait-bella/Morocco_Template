@@ -3,13 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: Montserrat;
-    color: white;
-    &::-webkit-scrollbar{
-        display: none;
+html {
+    scroll-behavior: smooth;
+    body{
+        font-family: Montserrat;
+        color: white;
+        &::-webkit-scrollbar{
+            display: none;
+        }
     }
 }
+
 .section-title{
     display: flex;
     flex-direction: column;
@@ -21,6 +25,7 @@ body{
         letter-spacing: 10px;
         color: #474747;
         margin-bottom: 27px;
+        text-transform: uppercase;
     }
 
     .tilte{
@@ -30,13 +35,27 @@ body{
     }
 }
 .container{
-    max-width: 1591px;
+    max-width: 1593px;
 }
+
+@media (max-width: 622px){
+    .section-title{
+        .subtitle{
+            font-size: 11px;
+            letter-spacing: 5px;
+        }
+        .tilte{
+            font-size: 27px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
 @import "./section/nav";
 @import "./section/slider";
 @import "./section/activites";
 @import "./section/about-us";
-// @import "./section/beauties";
 @import "./section/network";
 @import "./section/avis";
 @import "./section/footer";
