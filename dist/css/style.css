@@ -291,6 +291,7 @@ html body::-webkit-scrollbar {
 }
 .slider .slider__villes .slider__ville .slider__ville__content label {
   font-size: 20px;
+  cursor: pointer;
   font-weight: bold;
 }
 .slider .slider__villes .slider__ville .slider__ville__content p {
