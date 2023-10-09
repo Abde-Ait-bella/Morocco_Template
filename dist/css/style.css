@@ -94,7 +94,7 @@ html body::-webkit-scrollbar {
 .nav .nav__left img {
   display: flex;
   align-items: center;
-  width: 154px;
+  width: 220px;
 }
 .nav .nav__right {
   display: none;
@@ -444,7 +444,10 @@ html body::-webkit-scrollbar {
   margin-bottom: 42px;
 }
 .about-us .about-us__content .about-us__content_img img {
-  width: 100%;
+  width: 939.85px;
+  height: 610px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 .about-us .about-us__content .about-us__content_informations {
   padding-left: 94px;
@@ -475,7 +478,7 @@ html body::-webkit-scrollbar {
 }
 .about-us .about-us__content .about-us__content_informations .about-us__content_information p {
   padding-top: 20px;
-  padding-bottom: 70px;
+  padding-bottom: 56px;
   font-size: 16px;
   font-weight: 500;
   color: #6D6D6D;
@@ -528,9 +531,10 @@ html body::-webkit-scrollbar {
 .avis .avis__contents {
   display: flex;
   justify-content: center;
-  background-image: url("../../assets/imageAvis.jpg");
+  background-image: url("../../assets/avis.jpg");
   background-size: cover;
   height: 522px;
+  border-radius: 10px;
   position: relative;
 }
 .avis .avis__contents .content {

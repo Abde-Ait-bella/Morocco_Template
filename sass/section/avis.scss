@@ -5,9 +5,10 @@
     .avis__contents {
         display: flex;
         justify-content: center;
-        background-image: url("../../assets/imageAvis.jpg");
+        background-image: url("../../assets/avis.jpg");
         background-size: cover;
         height: 522px;
+        border-radius: 10px;
         position: relative;
 
         .content {
