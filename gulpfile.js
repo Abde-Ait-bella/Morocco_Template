@@ -19,3 +19,10 @@ exports.watch = function () {
   gulp.watch('./sass/**/*.scss', buildStyles);
   gulp.watch('./js/**/*.js', buildscript);
 };
+
+function copyFiles() {
+  return gulp.src(['./_redirects', './dist/**/*'])
+    .pipe(gulp.dest('./dist'));
+}
+
+exports.build = gulp.series(buildStyles, buildscript, copyFiles);
