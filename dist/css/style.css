@@ -551,16 +551,16 @@ html body::-webkit-scrollbar {
   color: black;
   height: 206.9px;
   width: 350px;
-  padding-top: 43px;
-  padding-left: 35px;
-  padding-right: 13px;
+  padding-top: 30px;
+  padding-left: 31px;
+  padding-right: 34px;
 }
 .avis .avis__contents .content .img p {
-  font-size: 12px;
+  font-size: 14px;
   color: #474747;
   font-weight: 300;
   line-height: 20px;
-  padding-top: 12px;
+  padding-top: 6px;
   font-family: roboto;
 }
 .avis .avis__contents .content .avis__footer {
