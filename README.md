@@ -1,4 +1,4 @@
-![cv](https://github.com/Abde-Ait-bella/Morocco_Template/assets/123671449/2ddbc502-df33-4a07-b513-8c8ea70e2f87)# Virtual Discovery of Morocco: Front-End Project 🌐
+# Virtual Discovery of Morocco: Front-End Project 🌐
 
 Welcome to my latest simple web development project: an engaging front-end interface that takes you on a journey through the beautiful regions of Morocco. 🇲🇦✨
 
@@ -12,8 +12,8 @@ This interface was created with passion to offer an immersive visual experience 
 - JavaScript
 
 ## Screenshots
-![cv](https://github.com/Abde-Ait-bella/Morocco_Template/assets/123671449/f2795ab8-04f1-4c52-89a7-4b46eb58a710)
-![Screenshot 2](screenshot2.png)
+[Uploading screencapture-morocco-becj-net-2024-04-04-18_52_22.pdf…]()
+
 
 ## Project Link
 [Link to the project](https://morocco.becj.net/)
