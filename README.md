@@ -12,7 +12,7 @@ This interface was created with passion to offer an immersive visual experience 
 - JavaScript
 
 ## Screenshots
-[Uploading screencapture-morocco-becj-net-2024-04-04-18_52_22.pdf…]()
+![Uploading morocco-screen.png…]()
 
 
 ## Project Link
