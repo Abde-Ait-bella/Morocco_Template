@@ -12,7 +12,8 @@ This interface was created with passion to offer an immersive visual experience 
 - JavaScript
 
 ## Screenshots
-![Uploading morocco4.jpg…]()
+![WhatsApp Image 2024-04-05 at 01 20 29_7e02269c](https://github.com/Abde-Ait-bella/Morocco_Template/assets/123671449/00d05301-c1f4-4d3e-89ea-86bf501cb578)
+![WhatsApp Image](https://github.com/Abde-Ait-bella/Morocco_Template/assets/123671449/7d67ee53-f70b-4dd3-afcf-49ae5524583e)
 
 
 
