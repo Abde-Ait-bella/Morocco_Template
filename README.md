@@ -14,6 +14,7 @@ This interface was created with passion to offer an immersive visual experience 
 ## Screenshots
 ![Uploading screencapture-morocco-becj-net-2024-04-04-18_52_22.jpg…]()
 ![CIN](https://github.com/Abde-Ait-bella/Morocco_Template/assets/123671449/171e5958-1cd0-448e-ac82-f047488a77a4)
+![Uploading morocco.jpg…]()
 
 
 ## Project Link
