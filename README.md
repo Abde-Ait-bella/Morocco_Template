@@ -26,4 +26,4 @@ This interface was created with passion to offer an immersive visual experience 
 - Responsive design for optimal accessibility
 
 ## Author
-[Author's GitHub Profile]([link-to-github-profile](https://www.linkedin.com/in/abde-ssamad-ait-bella-92481a249/))
+https://www.linkedin.com/in/abde-ssamad-ait-bella-92481a249/
