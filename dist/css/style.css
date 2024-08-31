@@ -44,7 +44,7 @@ html body::-webkit-scrollbar {
     letter-spacing: 5px;
   }
   .section-title .tilte {
-    font-size: 27px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
   }
@@ -380,7 +380,7 @@ html body::-webkit-scrollbar {
 }
 
 .slick-prev::before {
-  background-image: url("../../assets/flechBack.svg");
+  background-image: url("../../assets/svg/flechBack.svg");
   background-repeat: no-repeat;
   background-size: 42.69px 9.78px;
   content: "";
@@ -420,7 +420,7 @@ html body::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../../assets/flechNext.svg");
+  background-image: url("../../assets/svg/flechNext.svg");
   content: "";
   width: 42.62px;
   height: 10px;
@@ -444,7 +444,7 @@ html body::-webkit-scrollbar {
   margin-bottom: 42px;
 }
 .about-us .about-us__content .about-us__content_img img {
-  width: 939.85px;
+  width: 100%;
   height: 610px;
   object-fit: cover;
   border-radius: 10px;
@@ -531,7 +531,7 @@ html body::-webkit-scrollbar {
 .avis .avis__contents {
   display: flex;
   justify-content: center;
-  background-image: url("../../assets/avis.jpg");
+  background-image: url("../../assets/images/backgroundAviis.jpg");
   background-size: cover;
   height: 522px;
   border-radius: 10px;
@@ -545,7 +545,7 @@ html body::-webkit-scrollbar {
   position: relative;
 }
 .avis .avis__contents .content .img {
-  background-image: url("../../assets/avis1.svg");
+  background-image: url("../../assets/svg/avis1.svg");
   background-repeat: no-repeat;
   background-size: cover;
   color: black;
@@ -560,7 +560,7 @@ html body::-webkit-scrollbar {
   color: #474747;
   font-weight: 300;
   line-height: 20px;
-  padding-top: 6px;
+  padding-top: 5px;
   font-family: roboto;
 }
 .avis .avis__contents .content .avis__footer {
@@ -599,7 +599,7 @@ html body::-webkit-scrollbar {
     display: none;
   }
   .avis .avis__contents .content .img {
-    padding-top: 25px;
+    padding-top: 20px;
     padding-left: 20px;
   }
   .avis .avis__contents .content .img p {
@@ -612,10 +612,13 @@ html body::-webkit-scrollbar {
   }
 }
 @media (max-width: 900px) {
+  .avis .avis__contents .row {
+    display: flex;
+    justify-content: center;
+  }
   .avis .avis__contents .content {
     justify-content: start;
-    margin-left: 6%;
-    margin-top: 12px;
+    margin-top: 14px;
   }
   .avis .avis__contents .content .img {
     height: 191.9px;
@@ -629,7 +632,6 @@ html body::-webkit-scrollbar {
   .avis .avis__contents .content {
     margin-left: 0%;
     margin-right: 0%;
-    padding-left: 4px;
   }
   .avis .avis__contents .content .avis__footer {
     top: 2px;
@@ -777,15 +779,15 @@ footer .footer__sub span a img {
   margin-left: 40px;
 }
 .section-hotels .title-container .rating span {
-  background-image: url("../../assets/RatingStar.svg");
+  background-image: url("../../assets/svg/RatingStar.svg");
   width: 20px;
   height: 20px;
 }
 .section-hotels .title-container .rating span.half {
-  background-image: url("../../assets/RatingStar-Yellow-gree.svg");
+  background-image: url("../../assets/svg/RatingStar-Yellow-gree.svg");
 }
 .section-hotels .title-container .rating span.empty {
-  background-image: url("../../assets/RatingStar-gree.svg");
+  background-image: url("../../assets/svg/RatingStar-gree.svg");
 }
 .section-hotels .price {
   font-size: 20px;
@@ -823,7 +825,7 @@ footer .footer__sub span a img {
   padding: 27px 0px 26px 22px;
   margin-top: 10px;
   appearance: none;
-  background: url("../../assets/flecheSelect.svg") no-repeat 13px 8px;
+  background: url("../../assets/svg/flecheSelect.svg") no-repeat 13px 8px;
   background-position: calc(100% - 35px) 50%;
 }
 .section-hotels .down-hotels .btn-search {

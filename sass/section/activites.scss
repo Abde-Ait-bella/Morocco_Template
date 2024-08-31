@@ -141,7 +141,7 @@
 }
 
 .slick-prev::before {
-    background-image: url("../../assets/flechBack.svg");
+    background-image: url("../../assets/svg/flechBack.svg");
     background-repeat: no-repeat;
     background-size: 42.69px 9.78px;
     content: "";
@@ -182,7 +182,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("../../assets/flechNext.svg");
+    background-image: url("../../assets/svg/flechNext.svg");
     content: "";
     width: 42.62px;
     height: 10px;

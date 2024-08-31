@@ -5,7 +5,7 @@
     .avis__contents {
         display: flex;
         justify-content: center;
-        background-image: url("../../assets/avis.jpg");
+        background-image: url("../../assets/images/backgroundAviis.jpg");
         background-size: cover;
         height: 522px;
         border-radius: 10px;
@@ -19,7 +19,7 @@
             position: relative;
 
             .img {
-                background-image: url("../../assets/avis1.svg");
+                background-image: url("../../assets/svg/avis1.svg");
                 background-repeat: no-repeat;
                 background-size: cover;
                 color: black;
@@ -34,7 +34,7 @@
                     color: #474747;
                     font-weight: 300;
                     line-height: 20px;
-                    padding-top: 6px;
+                    padding-top: 5px;
                     font-family: roboto;
                 }
             }
@@ -87,7 +87,7 @@
                 }
 
                 .img {
-                    padding-top: 25px;
+                    padding-top: 20px;
                     padding-left: 20px;
 
                     p {
@@ -110,10 +110,14 @@
 @media (max-width: 900px) {
     .avis {
         .avis__contents {
+            .row{
+         display: flex;
+         justify-content: center;
+            }
             .content {
                 justify-content: start;
-                margin-left: 6%;
-                margin-top: 12px;
+                // margin-left: 6%;
+                margin-top: 14px;
 
                 .img {
                     height: 191.9px;
@@ -135,7 +139,6 @@
             .content {
                 margin-left: 0%;
                 margin-right: 0%;
-                padding-left: 4px;
                 .avis__footer {
                     top: 2px;
                     left: 103px;

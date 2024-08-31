@@ -36,16 +36,16 @@
             margin-left: 40px;
 
             span {
-                background-image: url("../../assets/RatingStar.svg");
+                background-image: url("../../assets/svg/RatingStar.svg");
                 width: 20px;
                 height: 20px;
 
                 &.half {
-                    background-image: url("../../assets/RatingStar-Yellow-gree.svg");
+                    background-image: url("../../assets/svg/RatingStar-Yellow-gree.svg");
                 }
 
                 &.empty {
-                    background-image: url("../../assets/RatingStar-gree.svg");
+                    background-image: url("../../assets/svg/RatingStar-gree.svg");
 
                 }
             }
@@ -93,11 +93,7 @@
                 padding: 27px 0px 26px 22px;
                 margin-top: 10px;
                 appearance: none;
-                // background-image: url("../../assets/flecheSelect.svg");
-                // background-repeat: no-repeat;
-                // background-size: 13px 8px;
-                background: url("../../assets/flecheSelect.svg") no-repeat 13px 8px;
-                // background-position: right 35px center;
+                background: url("../../assets/svg/flecheSelect.svg") no-repeat 13px 8px;
                 background-position: calc(100% - 35px) 50%, ;
 
             }
